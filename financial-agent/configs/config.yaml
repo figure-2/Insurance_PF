@@ -1,0 +1,20 @@
+# load api info
+api_key : ''
+request_id : ''
+
+# task 5를 위한 네이버 검색 api info
+naver_client_id : ''
+naver_client_secret : ''
+
+# data path
+abb_path : /workspace/data/abb.yaml
+eval_path : /workspace/data/conditional_queries.csv
+
+host_ip : # Server IP
+port : 8000 # Port Number
+
+task5:
+  prompt_paths:
+    extract_mydata: /workspace/resources/prompts/task5/extract_mydata.txt
+    extract_paragraph: /workspace/resources/prompts/task5/extract_paragraph.txt
+    summarize_reason: /workspace/resources/prompts/task5/summarize_reason.txt
